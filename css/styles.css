@@ -149,3 +149,15 @@ section {
     background-color: #2790c6;
 }
 
+/* Sessao sobre */
+#sessao-sobre .sessao-minibanner{
+    float: right;
+    margin-right: 50px;
+    background-image: url('../img/banner4.jpg');
+}
+
+#sessao-sobre .sessao-descricao{
+    position: absolute;
+    left: 25px;
+    width: calc(100% - 400px);
+}
