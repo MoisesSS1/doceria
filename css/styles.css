@@ -270,3 +270,15 @@ section {
     width: 180px;
 }
 
+/* Footer */
+footer{
+    height: 100px;
+    padding-top: 150px;
+    color: #006599;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+}
+
