@@ -95,3 +95,57 @@ section {
     background-position: center;
     background-size: cover;
 }
+
+#sessao-bemvindo h1{
+    margin-top: 70px;
+}
+
+/* cria uma "div" vazia e configura para o float acabar aqui e não obstruir o layout*/
+#sessao-bemvindo::after, #sessao-sobre::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.sessao-minibanner{
+    width: 300px;
+    height: 400px;
+    background-image: url('../img/banner3.jpg');
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+.sessao-descricao{
+    position: absolute;
+    left: 370px;
+    padding-right: 30px;
+}
+
+.sessao-descricao p{
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+
+.sessao-bemvindo-btn, form input[type=submit]{
+    background-color: #006599;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+    transition: .5s;
+    display: block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.sessao-bemvindo-btn:hover, form input[type=submit]:hover{
+    background-color: #2790c6;
+}
+
